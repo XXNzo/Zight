@@ -2671,14 +2671,14 @@ local locallv = W:AddLabel("Level")
         Name = "Status Hack"
     })
     
-    local Farmfast = W:AddLabel("Farm Fast : ❌")
-    local Bypass = W:AddLabel("Bypass ❌")
+    local Farmfast = W:AddLabel("Farm Fast : 🔩")
+    local Bypass = W:AddLabel("Bypass 🔩")
     local Section = W:AddSection({
         Name = "World"
     })
-    local WolrdSet3 = W:AddLabel("World 1 ❌ ")
-    local WolrdSet = W:AddLabel("Wolrd : 2 ❌")
-    local WolrdSet1 = W:AddLabel("Wolrd : 3 ❌")
+    local WolrdSet3 = W:AddLabel("World 1 🔩 ")
+    local WolrdSet = W:AddLabel("Wolrd : 2 🔩")
+    local WolrdSet1 = W:AddLabel("Wolrd : 3 🔩")
     local Section = W:AddSection({
         Name = "Stats Point"
     })
@@ -3083,7 +3083,11 @@ function UpdateKitsune()
 	end
 end
 
-M:AddParagraph("Sea Event","")
+    })
+
+    local Section = M:AddSection({
+        Name = "Sea Event"
+    })
 
 M:AddToggle({
     Name = "Đánh TerrorShark",
